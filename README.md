@@ -67,6 +67,7 @@ Web app for video playback, playlist management, &amp; customization. Features f
 - Videos are fetched from the local 'public' directory, but we can modify it to fetch videos from an external source/API or database.
 - Storing User preferences in local storage, including playback position for resume playback and selected volume.
 - We can use **Trie to optimize search/filter** functionality.
+- Add **"global-error.js" and "not-found.js"** to handle errors and undefined routes
 
 ### How my project can handle Large Number of Playlist?:
 My project can handle a large number of playlisst in the following ways:
