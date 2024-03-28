@@ -1,0 +1,54 @@
+.playlistSection {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.heading {
+  padding: 12px;
+  color: #111111;
+}
+
+.searchBar {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.searchBar img {
+  position: absolute;
+  right: 20px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 17.2px #997bf675;
+  background: #ffffff;
+  color: #333;
+}
+
+.listItem {
+  list-style-type: none;
+  padding-left: 8px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* setting width for screen width below 1000px */
+@media screen and (max-width: 1000px) {
+  .playlistSection {
+    width: 100%;
+  }
+}
