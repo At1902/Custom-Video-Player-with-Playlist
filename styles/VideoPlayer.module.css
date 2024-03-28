@@ -1,0 +1,92 @@
+.videoPlayer {
+  position: relative;
+  display: flex;
+  border-radius: 12px;
+  border: none;
+}
+
+.video {
+  border-radius: 12px;
+  border: none;
+}
+
+.videoControls {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  padding: 8px;
+  gap: 8px;
+  color: #ffffff;
+}
+
+.seeker {
+  width: 100%;
+}
+
+.seeker input {
+  width: 100%;
+}
+
+.controlBtnStack {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.volumeControl {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.btnStackRight {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 12px;
+  gap: 12px;
+}
+
+.playbackRateSelector {
+  height: 24px;
+  cursor: pointer;
+  color: #121212;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+.playbackRateSelector:focus-visible {
+  outline: none;
+}
+
+.controlBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  /* Responsive: Change the appearance of volume slider from horizontal to vertical*/
+  .volumeSlider {
+    position: absolute;
+    bottom: 32px;
+    -webkit-appearance: slider-vertical;
+    appearance: slider-vertical;
+  }
+
+  .volume {
+    flex-direction: column;
+  }
+
+  .controlBtnStack {
+    gap: 8px;
+  }
+}

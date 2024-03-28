@@ -1,0 +1,46 @@
+.videoCard {
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  background: #242424;
+  border-radius: 12px;
+  width: 114px;
+  height: 63px;
+}
+
+.thumbnail img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.duration {
+  background: #00000081;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: #1b1a1a;
+  font-size: 14px;
+}
+
+/* Add ellipsis after 2 line in description */
+.description {
+  color: #333;
+  font-size: 12px;
+  line-height: 1.4;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
