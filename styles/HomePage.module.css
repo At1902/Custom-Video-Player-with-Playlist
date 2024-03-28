@@ -1,0 +1,39 @@
+.playerSection {
+  width: 70%;
+}
+
+.playlistSection {
+  width: 30%;
+}
+
+.homepage {
+  display: flex;
+  padding: 16px 24px;
+  gap: 12px;
+}
+
+/* setting width for screen width below 1200px */
+@media screen and (max-width: 1200px) {
+  .playerSection {
+    width: 60%;
+  }
+  .playlistSection {
+    width: 40%;
+  }
+}
+
+/* setting width for screen width below 1000px */
+@media screen and (max-width: 1000px) {
+  .homepage {
+    padding: 16px;
+    flex-direction: column;
+  }
+
+  .playerSection {
+    width: 100%;
+  }
+
+  .playlistSection {
+    width: 100%;
+  }
+}
