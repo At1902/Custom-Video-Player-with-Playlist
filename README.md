@@ -13,6 +13,9 @@ Web app for video playback, playlist management, &amp; customization. Features f
 - User preferences stored in local storage, including playback position for resume playback and selected volume.
 - Responsive acrross various screens
 
+### Demo and explanation Video:
+Here is the link for quick and short demo and explanation video: [{Demo video}](https://drive.google.com/file/d/1PHZKtXNedLp3ht6oEvXmEaWOzwn3PL43/view?usp=drive_link)
+
 ### Production Link:
 Deployed on Vercel: https://custom-video-player-with-playlist.vercel.app
 
