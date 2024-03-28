@@ -13,6 +13,9 @@ Web app for video playback, playlist management, &amp; customization. Features f
 - User preferences stored in local storage, including playback position for resume playback and selected volume.
 - Responsive acrross various screens
 
+### Production Link:
+Deployed on Vercel: https://custom-video-player-with-playlist.vercel.app
+
 ### Lighthouse Report:
 ![Lighthouse Report](./Ligthouse-Video-Player.png)
 
