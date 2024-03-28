@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import VideoPlayer from "@/components/VideoPlayer";
-import Playlist from "@/components/Playlist";
+import VideoPlayer from "@components/VideoPlayer";
+import Playlist from "@components/Playlist";
 import style from "@styles/HomePage.module.css";
 
 const Home = () => {
@@ -40,7 +40,6 @@ const Home = () => {
   useEffect(() => {
     localStorage.setItem("videoPlayerPlayedSeconds", playedSeconds);
   }, [playedSeconds]);
-
 
   // Fetching videos from file local (we can also use a database to store videos or can fetch from any external API)
   useEffect(() => {
