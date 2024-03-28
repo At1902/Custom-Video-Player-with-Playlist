@@ -13,6 +13,9 @@ Web app for video playback, playlist management, &amp; customization. Features f
 - User preferences stored in local storage, including playback position for resume playback and selected volume.
 - Responsive acrross various screens
 
+### Lighthouse Report:
+![Lighthouse Report](./Ligthouse-Video-Player.png)
+
 ### Technologies Used:
 - Next.js
 - React.js
