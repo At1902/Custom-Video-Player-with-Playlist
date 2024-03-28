@@ -1,3 +1,17 @@
+// {
+//   "extends": ["next/babel", "next/core-web-vitals", "prettier"]
+// }
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/babel", "next/core-web-vitals", "prettier"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "no-unused-vars": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
