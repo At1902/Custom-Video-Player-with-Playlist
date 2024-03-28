@@ -1,4 +1,4 @@
-# Custom-Video-Player-with-Playlist <a href="https://custom-video-player-with-playlist.vercel.app" target="_blank">Live Link</a>
+# Custom-Video-Player-with-Playlist <a href="https://custom-video-player-with-playlist.vercel.app" target="_blank">{Live Link}</a>
 Web app for video playback, playlist management, &amp; customization. Features fullscreen, seek functionality, volume control, speed control, Autoplay, thumbnails, search, &amp; resume playback. Built with Next.js. Supports playlist reordering.
 
 ### Features:
