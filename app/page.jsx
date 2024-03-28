@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import VideoPlayer from "@components/VideoPlayer";
-import Playlist from "@components/Playlist";
+import VideoPlayer from "../components/VideoPlayer";
+import Playlist from "../components/Playlist";
 import style from "@styles/HomePage.module.css";
 
 const Home = () => {
